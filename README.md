@@ -12,16 +12,12 @@ provider transforms DigitalOcean resource to relational and graph databases.
 
 ## What is CloudQuery
 
-CloudQuery pulls, normalize, expose and monitor your cloud infrastructure and SaaS apps as SQL.
-This abstracts various scattered APIs enabling you to define security,governance,cost and compliance policies with SQL.
+The [open-source](https://github.com/cloudquery/cloudquery) cloud asset inventory powered by SQL.
 
-cloudquery can be easily extended to more resources and SaaS providers (open an [Issue](https://github.com/cloudquery/cloudquery/issues)).
-
-Think about cloudquery as a compliance-as-code tool inspired by tools like [osquery](https://github.com/osquery/osquery)
-and [terraform](https://github.com/hashicorp/terraform).
+CloudQuery extracts, transforms, and loads your cloud assets into normalized PostgreSQL tables. CloudQuery enables you to assess, audit, and evaluate the configurations of your cloud assets.
 
 ### Links
 * Homepage: https://cloudquery.io
-* Releases: https://github.com/cloudquery/cloudquery/releases
 * Documentation: https://docs.cloudquery.io
-* Provider Hub: https://hub.cloudquery.io/
+* CloudQuery Hub (providers & policies documentation): https://hub.cloudquery.io/
+* Discord: https://cloudquery.io/discord
